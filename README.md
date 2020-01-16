@@ -42,21 +42,25 @@ https://blackrockdigital.github.io/startbootstrap-shop-homepage/
       "price": "$95.11"
   }
 ```
-* Use this interface where appropriate
+* Use this interface where appropriate       l.w.[for the future]
 
 ### TypeScript
 * Apply types to appropriate places: argument types, function return types, class property types
-* Import and use the Product interface where needed
+* Import and use the Product interface where needed      l.w.[for the future]
 
 ### ProductService
 * Create a new service for `product`
 * Create a property on this class for `shoppingCart` which is an Array of Product
-* Create a property on this class for `products` which is an Array of Product
-* Import products from `products.ts` and assign it into the products property
+* Create a property on this class for `products` which is an Array of Product  
+* Import products from `products.ts` and assign it into the products property 
 * Create a method for `getProducts` with return type `Array<Product>`
 * Create a method for `getShoppingCart` with return type `Array<Product>`
 * Create a method for `addToCart` that takes an argument product of type `Product` and pushes it to the shopping cart array
-* Make sure to import the service and add to the providers array in `app.module.ts`. The generator might not do this.
+* Make sure to import the service and add to the providers array in `app.module.ts`. The generator might not do this.  X
+
+
+
+
 
 ### app.component.ts
 * Create a property called products of type `Array<Product>`
