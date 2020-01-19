@@ -20,7 +20,8 @@ getShoppingCart(): Product[]
 {
   return this.shoppingCart;
 }
-addtoCart(product: Product){
+addtoCart(product: Product):Product[] {
   this.shoppingCart.push(product);
+  return this.shoppingCart;
 }
 }
