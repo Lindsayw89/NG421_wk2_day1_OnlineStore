@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Product } from '../interfaces/product';
-import products from '../products';  //check
+import products from '../products'  //check
 
 
 @Injectable({
@@ -11,7 +11,10 @@ shoppingCart: Product[]
 products: Product[]
 
 
-  constructor() { }
+  constructor() { 
+    this.products = products;  // look over this
+  }
+
 
 getProducts(): Product[] {
  return this.products;

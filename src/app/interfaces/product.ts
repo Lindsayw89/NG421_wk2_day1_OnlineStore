@@ -5,5 +5,5 @@ export interface Product {
     "reviews": number,
     "rating": number,
     "imgUrl": string,
-    "price": number
+    "price": string
 }

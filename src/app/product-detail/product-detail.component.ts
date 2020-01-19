@@ -8,6 +8,7 @@ import { Product } from '../interfaces/product';
 })
 export class ProductDetailComponent implements OnInit {
 @Input() product: Product
+
  
  
 
