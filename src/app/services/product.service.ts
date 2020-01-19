@@ -10,6 +10,7 @@ export class ProductService {
 shoppingCart: Product[] 
 products: Product[]
 
+
   constructor() { }
 
 getProducts(): Product[] {
