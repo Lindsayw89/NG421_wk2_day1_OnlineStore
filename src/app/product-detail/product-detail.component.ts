@@ -7,14 +7,10 @@ import { Product } from '../interfaces/product';
   styleUrls: ['./product-detail.component.css']
 })
 export class ProductDetailComponent implements OnInit {
-@Input() product: Product={  price: 0,
-name: "",
-description:"",
-reviews: 0,
-rating: 0,
-id:0,
-imgUrl:""
- }
+@Input() product: Product
+ 
+ 
+
   constructor() { }
 
   ngOnInit() {
